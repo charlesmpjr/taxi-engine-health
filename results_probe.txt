@@ -1,0 +1,20 @@
+design check [1.01327954e+06 6.07418077e+02 1.01778934e+03 3.73596834e-01] 8.881784197001252e-16
+N=0.55: %change P3,T3,EGT,Wf  wear(-2% eta_c) [0.62 0.89 2.25 4.09]  healthy+bleed4%+40kW [-0.15 -0.06  7.91 15.46]
+N=1.0: %change P3,T3,EGT,Wf  wear(-2% eta_c) [0.86 1.35 2.56 3.21]  healthy+bleed4%+40kW [-1.48 -0.46  3.9   4.13]
+solver res 4.440892098500626e-15 0.0 0.0 0.0
+LIBRARY, 1500 labelled engines
+  same conditions            ridge  0.59 [0.6  0.63 0.54]
+  same conditions            HGB    0.56 [0.58 0.59 0.51]
+  same conditions            MLP    0.53 [0.54 0.6  0.46]
+  hot/high airports          ridge  0.00 [0. 0. 0.]
+  hot/high airports          HGB    0.00 [0.01 0.   0.  ]
+  hot/high airports          MLP    0.00 [0. 0. 0.]
+  hot/high, trained on both  ridge  0.57 [0.55 0.61 0.56]
+  hot/high, trained on both  HGB    0.55 [0.52 0.61 0.51]
+  hot/high, trained on both  MLP    0.54 [0.51 0.59 0.53]
+PHYSICS least squares, exact model known
+  ignores bleed/accessory, same            0.09 [0.28 0.   0.  ]  (0.1s/engine)
+  ignores bleed/accessory, hot/high        0.14 [0.41 0.   0.  ]  (0.1s/engine)
+  MAP nuisance+bias, same                  0.23 [0.57 0.09 0.01]  (1.1s/engine)
+  MAP nuisance+bias, hot/high              0.20 [0.59 0.03 0.  ]  (1.1s/engine)
+  oracle bleed/power, same                 0.45 [0.29 0.66 0.38]  (0.1s/engine)

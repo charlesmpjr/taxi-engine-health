@@ -1,0 +1,9 @@
+  same                       ridge  0.59 [0.6  0.63 0.54]
+  same                       HGB    0.56 [0.58 0.59 0.51]
+  same                       MLP    0.53 [0.54 0.6  0.46]
+  same, first 60 only        ridge  0.60 [0.59 0.66 0.55]
+  same, first 60 only        HGB    0.56 [0.56 0.6  0.51]
+  same, first 60 only        MLP    0.53 [0.49 0.6  0.49]
+exact model, correct priors, same             0.61 [0.6  0.67 0.56] converged 1.00 1.1s/eng
+exact model, correct priors, hot/high         0.58 [0.56 0.63 0.55] converged 1.00 1.1s/eng
+exact model, priors of 'same' on hot/high     0.13 [0.38 0.   0.  ] converged 1.00 1.3s/eng
